@@ -6,7 +6,7 @@ metadata:
     app: nginx
     env: prod
 spec:
-  # type: LoadBalancer
+  type: {{ .Values.service.LoadBalancer }}
   selector:
     app: nginx
     env: prod
