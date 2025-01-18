@@ -1,0 +1,4 @@
+deployment:
+  image:
+    tag: v7
+  replicaCount: 2
