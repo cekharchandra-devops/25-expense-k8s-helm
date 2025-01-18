@@ -1,6 +1,6 @@
 deployment:
   image:
-    tag: v3.0
+    tag: v7
   replicaCount: 2
 service:
   type: LoadBalancer
